@@ -1,3 +1,11 @@
+# This Python project is a simple Parking Lot Management System implemented using object-oriented principles. The system provides functionalities to manage parking spots and vehicles efficiently.
+
+# Features:
+# Add Parking Spots: Add parking spots to the parking lot, each identified by a unique license plate number and type (Small, Medium, or Large).
+# Park Vehicles: Park vehicles in available spots that match their type. Vehicles are identified by license plates and type.
+# Unpark Vehicles: Vacate a specific parking spot by its spot_id.
+# Check Availability: Check if a specific parking spot is available or occupied.
+
 class Vehicle:
     def __init__(self, license_plate, type):
         self.license_plate = license_plate
